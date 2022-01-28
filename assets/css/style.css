@@ -1,7 +1,25 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: rgba(0, 0, 0, 0.863);
+	background-color: #dcdcdc;
 	font-family: 'Nunito Sans', sans-serif;
 	color: #fff;
+}
+
+header {
+	height: auto;
+	width: auto;
+	display: flex;
+	justify-content: space-between;
+	background-color: green;
+}
+
+.container {
+	width: 100%;
+	max-width: 1040px;
+	height: auto;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	background-color: red;
 }
